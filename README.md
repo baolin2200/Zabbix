@@ -103,21 +103,21 @@ DBPassword=123456   #数据库密码
 ##1.5Web页面安装主站：
 * 在浏览器中打开：
 <pre>
-http://192.168.56.11/zabbix/setup.php   
+http://192.168.56.11/zabbix/setup.php
 </pre>
 * 欢迎界面
-![图1-开机界面](http://xxxxx)
+![图1-开机界面](https://github.com/baolin2200/Zabbix/blob/master/Image/%E5%9B%BE1-%E5%BC%80%E6%9C%BA%E7%95%8C%E9%9D%A2.jpg)
 * 环境检查确保全部都为OK 
-![图2-环境检查](http://xxxxx) 
+![图2-环境检查](https://github.com/baolin2200/Zabbix/blob/master/Image/%E5%9B%BE2-%E7%8E%AF%E5%A2%83%E6%A3%80%E6%9F%A5.jpg) 
 * 连接到数据库,输入密码
-![图3-连接数据库](http://xxxxx) 
+![图3-连接数据库](https://github.com/baolin2200/Zabbix/blob/master/Image/%E5%9B%BE3-%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.jpg) 
 * 配置Zabbix服务细节可默认
-![图4-广告](http://xxxxx) 
+![图4-广告](https://github.com/baolin2200/Zabbix/blob/master/Image/%E5%9B%BE4-%E5%B9%BF%E5%91%8A.jpg) 
 * 确认配置
-![图5-确认配置](http://xxxxx) 
+![图5-确认配置](https://github.com/baolin2200/Zabbix/blob/master/Image/%E5%9B%BE5-%E7%A1%AE%E8%AE%A4%E9%85%8D%E7%BD%AE.jpg) 
 * 完成安装，会在/etc/zabbix/web/zabbix.conf.php生成配置文件。(图略)
 * 用户登录，默认用户名:Admin 密码：zabbix,登陆后请及时更改。
-![图6-用户登录](http://xxxxx) 
+![图6-用户登录](https://github.com/baolin2200/Zabbix/blob/master/Image/%E5%9B%BE6-%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95.jpg) 
 
 
 
