@@ -100,3 +100,28 @@ DBPassword=123456   #数据库密码
 [root@linux-node1 ~]# systemctl start zabbix-server  
 [root@linux-node1 ~]# systemctl start httpd
 </pre>
+##1.5Web页面安装主站：
+* 在浏览器中打开：
+<pre>
+http://192.168.56.11/zabbix/setup.php   
+</pre>
+* 欢迎界面
+![图1-开机界面](http://xxxxx)
+* 环境检查确保全部都为OK 
+![图2-环境检查](http://xxxxx) 
+* 连接到数据库,输入密码
+![图3-连接数据库](http://xxxxx) 
+* 配置Zabbix服务细节可默认
+![图4-广告](http://xxxxx) 
+* 确认配置
+![图5-确认配置](http://xxxxx) 
+* 完成安装，会在/etc/zabbix/web/zabbix.conf.php生成配置文件。(图略)
+* 用户登录，默认用户名:Admin 密码：zabbix,登陆后请及时更改。
+![图6-用户登录](http://xxxxx) 
+
+
+
+
+
+
+
